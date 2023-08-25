@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    /* uper wala chij esliye kiye hain taki content uske widht and height k ander hi rhe bhr nh bhaage */
+}
+
+.navbar{
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo
+{
+    background-image: url("./amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.border{
+    border: 2px solid transparent; 
+}
+
+.border:hover
+{
+    border: 1.5px solid white;
+}
+
+/** box2 **/
+
+.upper{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.lower
+{
+    color: #FFFFFF;
+    margin-left: 3px;
+}
+
+
+
+.add_icon
+{
+    display: flex;
+    align-items: center;
+}
+
+/* Third box */
+
+.nav_srh
+{
+    display: flex;
+    background-color: pink;
+    height: 40px;
+    width: 576px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.search_select
+{
+    background-color: #f3f3f3;
+    color: #0f1111;
+    width: 52px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.serach_input
+{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.nav_srh:hover{
+    border: 2px solid orange;
+}
+
+
+.search_icon{
+    width: 45px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+/* box 4 */
+
+span{
+    font-size: 0.7rem;
+}
+.acc{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.Sign_in{
+    font-size: 12px;
+}
+
+/* box 6 */
+
+
+.nav_cart i {
+    font-size: 30px;
+
+}
+
+.nav_cart{
+    font-size: 0.85rem;
+    font-weight: 800;
+}
+
+
+/* panel */
+
+.panel
+{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+}
+
+.pa_border
+{
+    border: 2px solid transparent;
+    padding: 7px;
+}
+
+.pa_border:hover
+{
+    border: 2px solid white;
+}
+.panel_menu{
+    margin: auto 0;
+    width: 75%;
+}
+
+
+.panel_menu p{
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+.panel_all
+{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.panel_all i{
+    font-size: 1.25rem;
+}
+
+.all{
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.panel_deals
+{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+
+.p_border
+{
+    border: 2px solid transparent;
+    padding: 7px;
+}
+
+.p_border:hover
+{
+    border: 2px solid white;
+}
+
+/* home */
+
+
+.home
+{
+    background-image: url(./herp.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+
+/* option */
+
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 16px;
+}
+
+.box_img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+.box1_content
+{
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.box1_content p{
+    color: #007185;
+}
+
+/* bottom part */
+
+footer
+{
+    margin-top: 15px;
+}
+.bottom
+{
+    height: 49px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot_panel{
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+ul a
+{
+    display: block;
+    margin-top: 10px;
+}
+ul p
+{
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
